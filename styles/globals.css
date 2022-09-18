@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.background{
+  background-color: rgba(51,214,166,0.25);
+  width: 500px;
+  height: 90px; 
+  padding-top: 20px;
+}
+.background2{
+  border: 1px black solid;
+}
+
+@media only screen and (max-width: 768px) {
+  .background{
+    background-color: rgba(51,214,166,0.25);
+    width: 200px;
+    text-align: center;
+    align-items: center;
+    height: 110px; 
+
+  }
+}
