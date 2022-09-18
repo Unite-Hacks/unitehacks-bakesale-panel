@@ -540,13 +540,6 @@
   dependencies:
     "queue-microtask" "^1.2.2"
 
-"rxjs@^7.5.6":
-  "integrity" "sha512-dnyv2/YsXhnm461G+R/Pe5bWP41Nm6LBXEYWI6eiFP4fiwx6WRI/CD0zbdVAudd9xwLEF2IDcKXLHit0FYjUzw=="
-  "resolved" "https://registry.npmjs.org/rxjs/-/rxjs-7.5.6.tgz"
-  "version" "7.5.6"
-  dependencies:
-    "tslib" "^2.1.0"
-
 "scheduler@^0.22.0":
   "integrity" "sha512-6QAm1BgQI88NPYymgGQLCZgvep4FyePDWFpXVK+zNSUgHwlqpJy8VEh8Et0KxTACS4VWwMousBElAZOH9nkkoQ=="
   "resolved" "https://registry.npmjs.org/scheduler/-/scheduler-0.22.0.tgz"
@@ -604,7 +597,7 @@
   dependencies:
     "is-number" "^7.0.0"
 
-"tslib@^2.1.0", "tslib@^2.4.0":
+"tslib@^2.4.0":
   "integrity" "sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ=="
   "resolved" "https://registry.npmjs.org/tslib/-/tslib-2.4.0.tgz"
   "version" "2.4.0"
