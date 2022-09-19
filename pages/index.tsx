@@ -2,7 +2,7 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import qrcode from "../public/assets/qrcode_bank.hackclub.com.png"
-import useSWR from 'swr'
+
 
 
 const api_url = 'https://bank.hackclub.com/api/v3/organizations/unite-hacks/donations'
@@ -24,9 +24,7 @@ interface Props {
 
 
 const Home: NextPage<Props> = (props) => {
-  const { data } = useSWR(api_url);
-
-  if (!data) return (
+ return (
 <>
     <Head>
         <title>Unite Hacks Bake Sale</title>
