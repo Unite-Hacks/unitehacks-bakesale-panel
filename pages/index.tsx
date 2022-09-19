@@ -44,7 +44,7 @@ const Home: NextPage<Props> = (props) => {
   )
 }
 
-export const getStaticProps = async () => {
+export const getServerSideProps = async () => {
   const res = await fetch(api_url);
   const data = await  res.json();
 
